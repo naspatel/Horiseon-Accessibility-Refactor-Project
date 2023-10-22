@@ -19,7 +19,7 @@ a {
 
 /* Paragraph styling */
 p {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 /* Utility classes for floating elements */
@@ -59,7 +59,7 @@ p {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .header div ul {
@@ -105,12 +105,14 @@ p {
 /* Images in the marketing section */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Title in the marketing section */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 /* === SIDEBAR / BENEFITS SECTION === */
@@ -141,6 +143,7 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    height: auto;
 }
 
 /* === FOOTER STYLES === */
